@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/stylesheets/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&family=Stack+Sans+Text:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Stack+Sans+Notch:wght@200..700&family=Stack+Sans+Text:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="primary-header" id="top">
@@ -92,7 +92,33 @@
             </table>
         </div>
     </section>
-    
+
+    <section class="primary-contact-form" id="contact-me">
+        <div class="contact-form-container">
+            <h1>Let's Get Connected</h1>
+
+            <div class="contact-content">
+            <div class="contact-form-image">
+                <img src="https://images.pexels.com/photos/3321793/pexels-photo-3321793.jpeg" alt="Contact illustration">
+            </div>
+
+            <div class="contact-form">
+                <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+                <button type="submit">Send Message</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
