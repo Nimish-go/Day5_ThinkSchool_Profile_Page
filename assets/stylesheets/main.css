@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+/** Styling Navbar */
+
+.primary-nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background: #023047;
+    padding: 20px 0 20px 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+}
+
+.logo-text a{
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.logo-text a:hover{
+    color: #ffb703;
+    transition: 0.2s all ease-in;
+}
+
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.nav-list .nav-item{
+    margin-right: 1rem;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-item a:hover{
+    color: #ffb703;
+    transition: 0.2s all ease-in;
+}
