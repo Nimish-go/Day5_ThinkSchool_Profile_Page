@@ -1,20 +1,25 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Work Sans", sans-serif;
     box-sizing: border-box;
 }
 /** Styling Navbar */
 
+.primary-header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 .primary-nav{
     justify-content: space-between;
+    font-family: "Work Sans", sans-serif;
     display: flex;
     align-items: center;
     text-align: center;
     width: 100%;
     background: #d9d9d9;
     padding: 20px 0 20px 0;
-    position: relative;
 }
 
 .logo{
@@ -69,9 +74,13 @@
     background-blend-mode: lighten;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: 'Montserrat',sans-serif;
     background-size: cover;
     padding-bottom: 25px;
-    height: 45vh;
+    position: sticky;
+    height: 90vh;
+    top: 68px;
+    z-index: 0;
 }
 
 .primary-hero .hero-text{
@@ -92,10 +101,22 @@
     color: #fff;
 }
 
+.hero-text a{
+    margin: 60px 0 0 0;
+    border-radius: 50%;
+    padding: 50px;
+    color: #fff;
+}
+
 /** About Me Styling */
 
 .primary-about-me{
     background-color: #A8DADC;
+    height: 90vh;
+    position: sticky;
+    top: 470;
+    font-family: "Stack Sans Text",sans-serif;
+    z-index: 0;
 }
 
 .about-me-container{
@@ -113,6 +134,7 @@
     text-align: center;
     border-radius: 50%;
     margin-left: 20px;
+    opacity: 0.8;
 }
 
 .about-me-text{
@@ -130,11 +152,90 @@
     color: #757575;
     margin-top: 4px;
     margin-bottom: 4px;
+    font-weight: 380;
 }
 
 .about-me-text p{
     opacity: 0.6;
     margin-top: 10px;
-    padding: 0 0 0 3;
+    padding: 0 0 10px 0;
 }
+
+svg{
+    height: 45px;
+    width: 45px;
+    margin-left: -5px;
+    fill: #757575;
+    margin-right: 5px;
+}
+
+svg:hover{
+    fill: #505050;
+    transition: 0.2s ease all;
+}
+
+/**  Projects Styling  */
+
+.primary-projects{
+    background: #F2EDEB;
+    height: 80vh;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    font-family: "Stack Sans Notch",sans-serif;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.projects-container {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.projects-container .title h1 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #1D3557;
+  margin-bottom: 30px;
+}
+
+.projects-table {
+  width: 85%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.projects-table thead {
+  background-color: #1D3557;
+  color: #FFFFFF;
+}
+
+.projects-table th,
+.projects-table td {
+  padding: 18px 22px;
+  text-align: left;
+  border-bottom: 1px solid #DDE6ED;
+}
+
+.projects-table th {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.projects-table td {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.projects-table tbody tr:hover {
+  background-color: #F1FAEE;
+  transition: background 0.3s ease;
+}
+
+
 
