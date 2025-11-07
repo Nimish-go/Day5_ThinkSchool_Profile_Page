@@ -113,8 +113,7 @@
 .primary-about-me{
     background-color: #A8DADC;
     height: 90vh;
-    position: sticky;
-    top: 470;
+    position: relative;
     font-family: "Stack Sans Text",sans-serif;
     z-index: 0;
 }
@@ -188,53 +187,53 @@ svg:hover{
 }
 
 .projects-container {
-  text-align: center;
-  padding: 60px 0;
+    text-align: center;
+    padding: 60px 0;
 }
 
 .projects-container .title h1 {
-  font-size: 36px;
-  font-weight: 500;
-  color: #1D3557;
-  margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #1D3557;
+    margin-bottom: 30px;
 }
 
 .projects-table {
-  width: 85%;
-  margin: 0 auto;
-  border-collapse: collapse;
-  background-color: #FFFFFF;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  overflow: hidden;
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 .projects-table thead {
-  background-color: #1D3557;
-  color: #FFFFFF;
+    background-color: #1D3557;
+    color: #FFFFFF;
 }
 
 .projects-table th,
 .projects-table td {
-  padding: 18px 22px;
-  text-align: left;
-  border-bottom: 1px solid #DDE6ED;
+    padding: 18px 22px;
+    text-align: left;
+    border-bottom: 1px solid #DDE6ED;
 }
 
 .projects-table th {
-  font-weight: 600;
-  font-size: 18px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .projects-table td {
-  color: #333;
-  font-size: 16px;
-  line-height: 1.5;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .projects-table tbody tr:hover {
-  background-color: #F1FAEE;
-  transition: background 0.3s ease;
+    background-color: #F1FAEE;
+    transition: background 0.3s ease;
 }
 
 
