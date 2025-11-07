@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Work Sans", sans-serif;
+    box-sizing: border-box;
 }
 /** Styling Navbar */
 
@@ -11,8 +12,9 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    background: #023047;
+    background: #d9d9d9;
     padding: 20px 0 20px 0;
+    position: relative;
 }
 
 .logo{
@@ -24,15 +26,15 @@
 
 .logo-text a{
     font-size: 24px;
-    color: #fff;
+    color: #000;
     cursor: pointer;
     text-decoration: none;
+    margin-left: 15px;
 }
 
 
 .logo-text a:hover{
-    color: #ffb703;
-    transition: 0.2s all ease-in;
+    color: #1D3557;
 }
 
 
@@ -44,15 +46,95 @@
 }
 
 .nav-list .nav-item{
-    margin-right: 1rem;
+    margin-right: 35px;
 }
 
 .nav-item a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .nav-item a:hover{
-    color: #ffb703;
-    transition: 0.2s all ease-in;
+    color: #1D3557;
 }
+
+/** Hero Styling */
+
+.primary-hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background: url('/assets/images/hero-background.jpg');
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 25px;
+    height: 45vh;
+}
+
+.primary-hero .hero-text{
+    margin-left: 100px;
+    
+}
+
+.hero-text h1{
+    font-weight: 500;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.hero-text p{
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+/** About Me Styling */
+
+.primary-about-me{
+    background-color: #A8DADC;
+}
+
+.about-me-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 3px 0 5px 0;
+}
+
+.profile-image{
+    margin-top: 30px;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.about-me-text{
+    text-align: justify;
+    margin-left: 50px;
+}
+
+.about-me-text h1{
+    opacity: 0.8;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.about-me-text h4{
+    color: #757575;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.about-me-text p{
+    opacity: 0.6;
+    margin-top: 10px;
+    padding: 0 0 0 3;
+}
+
