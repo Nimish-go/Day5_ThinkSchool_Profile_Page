@@ -596,6 +596,10 @@ ul li {
     width: 200px;
   }
 
+  .primary-about-me{
+    height: 115vh;
+  }
+
   .about-me-text h1 {
     font-size: 28px;
   }
