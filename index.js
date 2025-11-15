@@ -2,6 +2,24 @@
 emailjs.init("ECy1zbRdY7ceNSVvo");  // <-- Correct public key
 
 document.addEventListener("DOMContentLoaded", () => {
+
+    const text = "A FullStack Developer";
+    const target = document.getElementById("hero-text-p");
+    let index = 0;
+
+    function typeWriter() {
+        if (index < text.length) {
+            target.textContent += text.charAt(index);
+            index++;
+            setTimeout(typeWriter, 100); // typing speed (ms)
+        }
+    }
+
+    // Clear the text first
+    target.textContent = "";
+    typeWriter();
+
+
     const form = document.getElementById("contactMeForm");
 
     form.addEventListener("submit", (event) => {
